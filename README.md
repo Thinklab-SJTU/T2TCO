@@ -1,6 +1,6 @@
 # T2TCO: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization
 
-Official implementation of **NeurIPS 2023* paper: "[From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization]()".
+Official implementation of **NeurIPS 2023** paper: "[From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization]()".
 
 ![fig1](figs/fig1.png)
 
@@ -58,9 +58,7 @@ export CUDA_VISIBLE_DEVICES=0,1,2,3
 python -u diffusion/train.py \
   --task "tsp" \
   --wandb_logger_name "tsp50" \
-  --do_test \
   --storage_path "./" \
-  --training_split "data/tsp/tsp50_concorde.txt" \
   --validation_split "data/tsp/tsp50_concorde.txt" \
   --test_split "data/tsp/tsp50_concorde.txt" \
   --validation_examples 8 \
