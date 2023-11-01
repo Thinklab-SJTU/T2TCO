@@ -6,7 +6,6 @@ python -u diffusion/train.py \
   --wandb_logger_name "mis_satlib" \
   --do_test_only \
   --storage_path './' \
-  --training_split "data/mis/sat/test/*gpickle" \
   --validation_split "data/mis/sat/test/*gpickle" \
   --test_split "data/mis/sat/test/*gpickle" \
   --batch_size 4 \

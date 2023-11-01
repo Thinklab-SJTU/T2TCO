@@ -6,7 +6,6 @@ python -u diffusion/train.py \
   --wandb_logger_name "mis_er" \
   --do_test_only \
   --storage_path './' \
-  --training_split "data/mis/er_700_800_test/*gpickle" \
   --validation_split "data/mis/er_700_800_test/*gpickle" \
   --test_split "data/mis/er_700_800_test/*gpickle" \
   --batch_size 4 \
