@@ -1,0 +1,10 @@
+test.ipynb
+.DS_Store
+*/__pycache__
+.idea
+ckpts
+*.pyc
+*.so
+*.o
+ckpts/*
+models/*
