@@ -1,6 +1,6 @@
 # T2TCO: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization
 
-Official implementation of **NeurIPS 2023** paper: "[From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization]()".
+Official implementation of **NeurIPS 2023** paper: "[From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization](https://www.researchgate.net/publication/375239515_From_Distribution_Learning_in_Training_to_Gradient_Search_in_Testing_for_Combinatorial_Optimization)".
 
 ![fig1](figs/fig1.png)
 
