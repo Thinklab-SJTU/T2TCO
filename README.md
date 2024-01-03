@@ -80,7 +80,7 @@ python -u diffusion/train.py \
 If you found this codebase useful, please consider citing the paper:
 
 ```
-@inproceedings{li2023t2tco,
+@inproceedings{li2023t2t,
   title = {T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization},
   author = {Li, Yang and Guo, Jinpei and Wang, Runzhong and Yan, Junchi},
   booktitle = {Advances in Neural Information Processing Systems},
