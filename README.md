@@ -1,6 +1,6 @@
-# T2TCO: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization
+# T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization
 
-Official implementation of **NeurIPS 2023** paper: "[From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization](https://www.researchgate.net/publication/375239515_From_Distribution_Learning_in_Training_to_Gradient_Search_in_Testing_for_Combinatorial_Optimization)".
+Official implementation of **NeurIPS 2023** paper: "[T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization](https://openreview.net/forum?id=JtF0ugNMv2)".
 
 Authors: Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan.
 
@@ -29,7 +29,7 @@ cd -
 
 ## Data and Pretrained Checkpoints
 
-We provide the evaluation data for TSP in `data/tsp`. For other details, please refer to `data` folder. Please download the pretrained model checkpoints from [here](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH?usp=sharing).
+We provide the evaluation data for TSP in `data/tsp`. For other details, please refer to `data` folder. Please download the pretrained model checkpoints from [here](https://drive.google.com/drive/folders/1IjaWtkqTAs7lwtFZ24lTRspE0h1N6sBH?usp=sharing) and [mis_er_categorizal](https://drive.google.com/file/d/1f3tNzpANSecJsn5ClgzRQ0lX6v1TPpXn/view?usp=sharing).
 
 ## Reproduction
 
@@ -81,7 +81,7 @@ If you found this codebase useful, please consider citing the paper:
 
 ```
 @inproceedings{li2023t2tco,
-  title = {From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization},
+  title = {T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization},
   author = {Li, Yang and Guo, Jinpei and Wang, Runzhong and Yan, Junchi},
   booktitle = {Advances in Neural Information Processing Systems},
   year = {2023}
