@@ -15,7 +15,7 @@ python -u diffusion/train.py \
   --ckpt_path "ckpts/tsp500_categorical.ckpt" \
   --two_opt_iterations 5000 \
   --parallel_sampling 1 \
-  --rewrite_ratio 0.25 \
+  --rewrite_ratio 0.4 \
   --norm \
   --rewrite \
   --fp16
