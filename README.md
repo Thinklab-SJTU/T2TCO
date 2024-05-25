@@ -70,7 +70,7 @@ python -u diffusion/train.py \
   --resume_weight_only \
   --ckpt_path "ckpts/tsp50_categorical.ckpt" \
   --parallel_sampling 1 \
-  --rewrite_ratio 0.25 \
+  --rewrite_ratio 0.4 \
   --norm \
   --rewrite
 ```
