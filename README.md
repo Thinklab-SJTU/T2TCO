@@ -75,6 +75,12 @@ python -u diffusion/train.py \
   --rewrite
 ```
 
+Hyperparameter setting for reproduction:
+
+|          | TSP-50 | TSP-100 | TSP-500 | TSP-1000 | SATLIB | ER-[700-800] |
+| -------- | ------ | ------- | ------- | -------- | ------ | ------------ |
+| $\alpha$ | 0.4    | 0.4     | 0.25    | 0.25     | 0.1    | 0.1          |
+
 ## Reference
 
 If you found this codebase useful, please consider citing the paper:
