@@ -38,7 +38,7 @@ dependencies:
   - pycparser=2.21=pyhd3eb1b0_0
   - python=3.7.13=h12debd9_0
   - readline=8.1.2=h7f8727e_1
-  - setuptools=65.6.3=py37h06a4308_0
+  - setuptools=65.6.3=py37h06a4308_0  
   - six=1.16.0=pyhd3eb1b0_1
   - sqlite=3.38.5=hc218d9a_0
   - tk=8.6.12=h1ccaba5_0
@@ -47,7 +47,7 @@ dependencies:
   - xz=5.2.5=h7f8727e_1
   - zlib=1.2.12=h7f8727e_2
   - zstd=1.4.9=haebb681_0
-  - pip:
+  - pip:    
     - absl-py==1.4.0
     - aiohttp==3.8.3
     - aiosignal==1.3.1
@@ -87,7 +87,7 @@ dependencies:
     - matplotlib==3.5.3
     - multidict==6.0.4
     - networkx==2.6.3
-    - numpy==1.20.0
+    - numpy>=1.21.0
     - oauthlib==3.2.2
     - opencv-python==4.7.0.68
     - packaging==23.0
@@ -97,10 +97,9 @@ dependencies:
     - protobuf==3.20.1
     - psutil==5.9.4
     - pyasn1==0.4.8
-    - pyasn1-modules==0.2.8
-    - pyconcorde==0.1.0
-    - pydeprecate==0.3.2
-    - pyg-lib==0.1.0+pt111cu113
+    - pyasn1-modules==0.2.8    
+    - pydeprecate==0.3.2    
+    - pyconcorde @ git+https://github.com/jvkersch/pyconcorde    
     - pyparsing==3.0.9
     - pyrss2gen==1.1
     - pysocks==1.7.1
@@ -123,15 +122,18 @@ dependencies:
     - tensorboard-plugin-wit==1.8.1
     - tensorboardx==2.5.1
     - threadpoolctl==3.1.0
-    - torch==1.11.0+cu113
-    - torch-cluster==1.6.0
-    - torch-geometric==2.2.0
-    - torch-scatter==2.1.0
-    - torch-sparse==0.6.16
-    - torch-spline-conv==1.2.1
+    - --extra-index-url https://download.pytorch.org/whl/cu113
+    - torch==1.11.0+cu113    
     - torchaudio==0.11.0+cu113
-    - torchmetrics==0.11.0
     - torchvision==0.12.0+cu113
+    - --find-links https://data.pyg.org/whl/torch-1.11.0+cu113.html
+    - pyg-lib==0.1.0
+    - torch-scatter==2.0.9
+    - torch-cluster==1.6.0
+    - torch-sparse==0.6.15
+    - torch-spline-conv==1.2.1
+    - torch-geometric==2.2.0
+    - torchmetrics==0.11.0
     - tqdm==4.64.1
     - tsplib95==0.7.1
     - urllib3==1.26.14
@@ -139,4 +141,4 @@ dependencies:
     - werkzeug==2.2.2
     - wrapt==1.14.1
     - yarl==1.8.2
-    - zipp==3.11.0
+    - zipp==3.11.0    
