@@ -4,6 +4,8 @@ Official implementation of **NeurIPS 2023** paper: "[T2T: From Distribution Lear
 
 Authors: Yang Li, Jinpei Guo, Runzhong Wang, Junchi Yan.
 
+The improved version has been published in **NeurIPS 2024**: "[Fast T2T: Optimization Consistency Speeds Up Diffusion-Based Training-to-Testing Solving for Combinatorial Optimization](https://openreview.net/forum?id=xDrKZOZEOc)".
+
 ![fig1](figs/fig1.png)
 
 ![fig2](figs/fig2.png)
